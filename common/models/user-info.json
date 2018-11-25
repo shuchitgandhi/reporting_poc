@@ -1,0 +1,36 @@
+{
+  "name": "user_info",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "user_id": {
+      "type": "string",
+      "required": true,
+      "id": true
+    },
+    "role": {
+      "type": "string",
+      "required": true
+    },
+    "user_name": {
+      "type": "string",
+      "required": true
+    },
+    "teacher_id": {
+      "type": "string"
+    },
+    "school_id": {
+      "type": "string"
+    },
+    "district_id": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

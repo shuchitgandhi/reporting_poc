@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "pearsonData": {
+    "host": "pearson-ssrs-poc.c98rkovqn2ak.us-east-1.rds.amazonaws.com",
+    "port": 5432,
+    "url": "",
+    "database": "pearson",
+    "password": "test1234",
+    "name": "pearsonData",
+    "user": "playpower",
+    "connector": "postgresql"
+  }
+}
