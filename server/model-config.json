@@ -15,7 +15,7 @@
   },
   "User": {
     "dataSource": "db",
-    "public": false
+    "public": true
   },
   "AccessToken": {
     "dataSource": "db",
@@ -37,11 +37,11 @@
     "public": false
   },
   "user_events": {
-    "dataSource": "pearsonData",
+    "dataSource": "db",
     "public": true
   },
   "user_info": {
-    "dataSource": "pearsonData",
+    "dataSource": "db",
     "public": true
   }
 }
