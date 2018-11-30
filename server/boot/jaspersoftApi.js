@@ -59,7 +59,6 @@ module.exports = function(app) {
     }).then(function(response) {
       res.json(JSON.parse(response));
     }).catch(function(error) {
-      cons
       res.send('Error in fetching data!');
     });
   });
